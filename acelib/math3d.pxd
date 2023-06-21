@@ -20,7 +20,7 @@ cdef class Vector3:
     cpdef Vector3 min(self, Vector3 other)
 
 
-cdef inline Vector3 new_vector3_from(math3d_c.Vector3[double] &other):
+cdef inline Vector3 new_vector3_from(math3d_c.Vector3[double] other):
     cdef Vector3 vec = Vector3()
     vec.c_vec.x = other.x
     vec.c_vec.y = other.y
