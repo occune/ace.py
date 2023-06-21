@@ -26,7 +26,7 @@
   "modes.{game_mode_name_here}": {
   },
 
-  "scripts": ["commands", "essentials", "censor", "greeting", "disco"],
+  "scripts": ["commands", "essentials", "greeting", "disco"],
   "scripts.commands": {
     "admin_passwords": ["123", "456"],
     "roles": {
